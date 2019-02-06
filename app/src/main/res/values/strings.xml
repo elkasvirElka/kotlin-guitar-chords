@@ -4,4 +4,6 @@
     <string name="title_dashboard">Песни</string>
     <string name="chords">Аккорды</string>
     <string name="settings">Настройки</string>
+    <string name="song_title">Название песни</string>
+    <string name="song_text">Текст песни</string>
 </resources>

@@ -8,7 +8,6 @@ import android.widget.TextView
 import com.example.evira.mysongsapp.R
 import com.example.evira.mysongsapp.models.Song
 import kotlinx.android.synthetic.main.item_song_list.view.*
-import org.jetbrains.anko.alert
 
 class SongListAdapter(
     private val mValues: List<Song>,
@@ -26,14 +25,15 @@ class SongListAdapter(
         return ViewHolder(view)
     }
 
+
     override fun getItemCount(): Int = mValues.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = mValues[position]
-        holder.textCategory.text = "Overall"
+        holder.textCategory.text = "#мураками #364 #до рассвета"
         holder.textTitle.text = mValues[position].title
         holder.textBody.text = mValues[position].text
-        holder.textSum.text = "24000"
+        holder.textSum.text = mValues[position].id.toString()
         holder.textDate.text = "24.01.2019"
 
 

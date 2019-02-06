@@ -4,16 +4,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:background="@color/background">
+
+<!--    <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:elevation="4dp"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:text="Название песни"/>-->
 
     <EditText
             android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:minHeight="150dp"
+            android:background="@drawable/bg_rounded"
             android:gravity="start"
-            android:background="@color/white"
+            android:hint="@string/song_title"
+            android:padding="8dp"
+            android:textSize="14dp"
             android:layout_margin ="@dimen/activity_horizontal_margin"  />
 
     <EditText
@@ -22,8 +39,11 @@
             android:layout_height="match_parent"
             android:layout_below="@id/title"
             android:minHeight="150dp"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:hint="@string/song_text"
+            android:background="@drawable/bg_white_rounded_16dp"
             android:gravity="start"
-            android:background="@color/white"
             android:layout_margin ="15dp" />
 
     <android.support.design.widget.FloatingActionButton
