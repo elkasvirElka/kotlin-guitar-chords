@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/background">
+
+    <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:minHeight="150dp"
+            android:gravity="start"
+            android:background="@color/white"
+            android:layout_margin ="@dimen/activity_horizontal_margin"  />
+
+    <EditText
+            android:id="@+id/text_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title"
+            android:minHeight="150dp"
+            android:gravity="start"
+            android:background="@color/white"
+            android:layout_margin ="15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            android:layout_alignBottom="@id/text_info"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentRight="true"
+    />
+
+</RelativeLayout>

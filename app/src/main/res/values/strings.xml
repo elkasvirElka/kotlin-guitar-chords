@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Аккорды</string>
+    <string name="title_home">Новая песня</string>
+    <string name="title_dashboard">Песни</string>
+    <string name="chords">Аккорды</string>
+    <string name="settings">Настройки</string>
+</resources>
