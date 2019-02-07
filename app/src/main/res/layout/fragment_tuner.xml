@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -19,4 +20,84 @@
             app:layout_constraintTop_toTopOf="parent"
             android:text="Здесь будет тюнер"/>
 
-</RelativeLayout>
+</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:background="@drawable/guitar"
+              tools:context=".MainActivity" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+        <Button
+                android:id="@+id/playEButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="12dp"
+                android:text="E"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"   />
+
+        <Button
+                android:id="@+id/playAButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="20dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"  />
+
+        <Button
+                android:id="@+id/playDButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="20dp"
+                android:text="D"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"   />
+
+        <Button
+                android:id="@+id/playGButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="20dp"
+                android:text="G"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"  />
+
+        <Button
+                android:id="@+id/playBButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="20dp"
+                android:text="B"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"  />
+
+        <Button
+                android:id="@+id/playESmallButton"
+                android:layout_width="41dip"
+                android:layout_height="46dip"
+                android:layout_marginLeft="20dp"
+                android:text="E"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/guitar_pick"  />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
