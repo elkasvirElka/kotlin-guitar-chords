@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1034849939866",
+    "firebase_url": "https://mysongs-master.firebaseio.com",
+    "project_id": "mysongs-master",
+    "storage_bucket": "mysongs-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034849939866:android:c4c0bde2f8f121a3",
+        "android_client_info": {
+          "package_name": "com.example.evira.mysongsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034849939866-su3u3emg9aqb519emfkk7r8076q2e7q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evira.mysongsapp",
+            "certificate_hash": "f71703e9dbb0441f017ad2105b426bf40f24a419"
+          }
+        },
+        {
+          "client_id": "1034849939866-iphs15vdulpkpt01dds40b5p4h47r4ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAgob_LbKzmbtPWwgYLc7iKGQe_yyl64s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034849939866-iphs15vdulpkpt01dds40b5p4h47r4ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
